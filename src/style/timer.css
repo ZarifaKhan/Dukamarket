@@ -1,0 +1,31 @@
+.timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  gap: 15px;
+}
+.clock {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background: #cc1414;
+  gap: 15px;
+
+  margin-top: -10px;
+  line-height: 0.1rem;
+  padding-top: 5px;
+}
+
+.clock__item {
+  padding: 5px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.timer__text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+}

@@ -1,0 +1,160 @@
+.feature {
+  width: 100%;
+  padding: 2rem;
+  padding-bottom: 2rem;
+}
+
+.feature__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.feature {
+  width: 25%;
+  /* border: 1px solid red;*/
+  padding: 1rem;
+}
+.feature__item {
+  display: flex;
+  gap: 5px;
+}
+
+.feature__img {
+  font-size: 0.5rem;
+}
+
+.feature__title {
+  /*width: 131%;*/
+  font-size: 0.8rem;
+}
+
+.feature__desc {
+  font-size: 0.8rem;
+  color: #222222;
+}
+.feature__item-text {
+  margin-top: 5px;
+}
+
+.banner__section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.banner__img {
+  width: 353px;
+  height: 180px;
+  position: relative;
+}
+
+.banner__item-text {
+  position: absolute;
+  top: 125%;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.banner__img:hover {
+  opacity: 0.5;
+}
+
+.top__deals {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.deals__day {
+  font-size: 24px;
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+.banner__section-img {
+  width: 1205px;
+  height: 200px;
+}
+
+.home__center img {
+  width: 1224px;
+  height: 184px;
+  padding-left: 30px;
+}
+
+.top__selling {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top__selling p {
+  color: black;
+}
+
+.top__selling-left {
+  padding-left: 2rem;
+}
+
+.top_sell {
+  font-size: 2rem;
+  padding-top: 2rem;
+
+  font-weight: 300;
+}
+
+.yellow__line {
+  width: 300px;
+  border: 2px solid #fcb200;
+}
+
+.top__selling-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 38px;
+  padding-right: 12px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.top__selling-right:hover {
+  color: #fcb200;
+}
+
+.blue__line {
+  border: 20px solid #263c97;
+}
+
+.slider-images{
+  width: 1250px;
+  height: auto;
+}
+.slider-images .image{
+  width: 100%;
+  height: 100%;
+  padding: 2rem 2rem;
+  overflow-x: auto;
+}
+
+.slider-images .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.view__all {
+  padding-bottom: 1rem;
+  margin-left: 1100px;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.view__all a {
+  text-decoration: none;
+  color: black;
+}

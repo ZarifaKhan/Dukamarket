@@ -1,0 +1,112 @@
+.top__footer {
+  width: 100%;
+  background-color: #2f3037;
+}
+
+.top__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  gap: 10px;
+}
+.top__footer-h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Rubik";
+}
+.top__footer-text {
+  color: #fff;
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.top__footer__center {
+  margin-top: -18px;
+}
+.top__footer__right {
+  margin-top: 18px;
+}
+
+.top__footer-social i {
+  color: #fff;
+  padding-right: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  gap: 108px;
+  background: #222222;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__head {
+  color: #fff;
+  gap: 10px;
+}
+
+.footer ul a {
+  color: #fff;
+  opacity: 0.5;
+  margin-bottom: -5px;
+}
+
+.footer ul {
+  list-style: none;
+  margin-left: -32px;
+  line-height: 31px;
+}
+
+.footer__custom {
+  font-size: 1rem;
+  width: 139px;
+  margin-bottom: 38px;
+}
+
+.footer__2__heading {
+  margin-top: -67px;
+}
+
+.footer__3__heading {
+  margin-top: -131px;
+}
+
+.footer__4__heading {
+  margin-top: -73px;
+}
+
+.footer__5__heading {
+  margin-top: -18px;
+}
+
+.about__store {
+  margin-top: -20px;
+}
+
+.footer__about-p {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.footer ul a:hover {
+  color: #fcbe00;
+  transition: 0.3s ease;
+}
+
+.call__us,
+.adress,
+.mail {
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.phone {
+  color: #fcbe00;
+}

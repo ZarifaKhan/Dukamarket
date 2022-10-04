@@ -1,0 +1,31 @@
+.wishyList__item-info img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.wishyList__product-price {
+  margin-top: -12px;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.wishyList__items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.close__wishyList-item {
+  margin-right: 20px;
+}
+.wishyList__product-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: blue;
+}
+
+.wishyList__item {
+  padding-bottom: 0px;
+  border-bottom: 1px solid #fde4e4;
+}

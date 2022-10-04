@@ -1,0 +1,37 @@
+.wishyList__container {
+  position: fixed;
+  top: 0;
+  left: 70%;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 99999;
+  border: 1px solid #fde4e4;
+}
+
+.wishyList {
+  /* position: absolute;
+  top: 0;
+  right: 0; */
+  width: 400px;
+  height: 100%;
+  background: #fff;
+  z-index: 999999;
+}
+
+.wishyList__close {
+  padding: 0.5rem;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 212px;
+}
+
+.close__wishy {
+  margin-left: 50px;
+  font-weight: 900;
+}
+
+.wishyList__item-list {
+  overflow-y: scroll;
+}

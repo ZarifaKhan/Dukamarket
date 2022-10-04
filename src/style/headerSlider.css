@@ -1,0 +1,82 @@
+.slider {
+  width: 100%;
+  background: #273f87;
+  text-align: start;
+  padding: 2rem;
+  display: flex;
+}
+
+.slider span {
+  width: 50px;
+  height: 30px;
+  background-color: #fcbe00;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.slider__text {
+  padding-left: 3rem;
+}
+.slider__arrial {
+  line-height: 13px;
+  font-size: 13px;
+  color: #222222;
+  padding: 6px 13px 6px 13px;
+  border-radius: 2px 2px;
+  font-weight: 500;
+  background-color: #fcbe00;
+  margin-left: 150px;
+}
+
+.slider h5,
+h3,
+p {
+  color: #fff;
+  margin-top: 50px;
+}
+
+.discover {
+  padding: 14px 52px;
+  background: #ffffff;
+  color: #222222;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 3px 3px;
+  border: 2px solid #ffffff;
+  margin-bottom: 10px;
+}
+
+.discover:hover {
+  background: #fcbe00;
+}
+
+.mashine__img,
+.football__img,
+.galaxy__img {
+  width: 500px;
+  height: 250px;
+}
+
+.slider__h5 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  margin-left: 90px;
+}
+
+.slider__h3 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.slider__p {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-left: 40px;
+}
+
+.discover {
+  margin-left: 100px;
+}

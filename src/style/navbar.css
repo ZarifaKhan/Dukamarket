@@ -1,0 +1,237 @@
+.navbar__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid #fff;
+  background: #263c97;
+}
+
+.navbar__ ul li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navbar__ a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+}
+.navbar__left {
+  width: 300px;
+  height: 34px;
+  display: flex;
+  gap: 10px;
+  color: #fff;
+  cursor: pointer;
+  padding: 7px 26px;
+  margin-top: -17px;
+}
+
+.navbar__left:hover {
+  background: #ffa200;
+
+  color: black;
+}
+
+.navbar__ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropDown__home {
+  position: absolute;
+  background-color: #ffffff;
+  /* left: 41%;
+  top: 1px; */
+  width: 400px;
+  height: 300;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+  z-index: 5;
+  display: flex;
+  gap: 147px;
+  padding: 1rem;
+}
+.dropDown__home a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.dropDown__home a {
+  display: block;
+  line-height: 35px;
+  color: #667;
+}
+
+.home_li:hover .dropDown__home {
+  visibility: visible;
+  opacity: 1;
+  transition: 1;
+  transition: 00.3s ease-in-out;
+  top: 40%;
+  left: 30%;
+}
+
+.dropDown__shop {
+  position: absolute;
+  background-color: #ffffff;
+  /* left: 41%;
+  top: 1px; */
+  width: 1200px;
+  height: 300;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+  z-index: 5;
+  display: flex;
+  gap: 147px;
+  padding: 1rem;
+}
+.dropDown__shop a {
+  display: block;
+  line-height: 35px;
+  color: #667;
+}
+
+.shop__li:hover .dropDown__shop {
+  visibility: visible;
+  opacity: 1;
+  transition: 1;
+  transition: 00.3s ease-in-out;
+  top: 40%;
+  left: 2%;
+}
+.dropDown__shop a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.dropDown__page {
+  position: absolute;
+  background-color: #ffffff;
+  /* left: 41%;
+  top: 1px; */
+  width: 171px;
+  height: 300;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+  z-index: 5;
+  /*display: flex;*/
+  gap: 147px;
+  padding: 1rem;
+}
+.dropDown__page a {
+  display: block;
+  line-height: 35px;
+  color: #667;
+}
+
+.page__li:hover .dropDown__page {
+  visibility: visible;
+  opacity: 1;
+  transition: 1;
+  transition: 00.3s ease-in-out;
+  top: 40%;
+  left: 40%;
+}
+.dropDown__page a {
+  text-decoration: none;
+  list-style: none;
+  gap: 5px;
+}
+
+.dropDown__blog {
+  position: absolute;
+  background-color: #ffffff;
+  /* left: 41%;
+  top: 1px; */
+  width: 188px;
+  height: 300;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+  z-index: 5;
+
+  gap: 147px;
+  padding: 1rem;
+}
+
+.dropDown__blog a {
+  display: block;
+  line-height: 35px;
+  color: #667;
+}
+
+.blog__li:hover .dropDown__blog {
+  visibility: visible;
+  opacity: 1;
+  transition: 1;
+  transition: 00.3s ease-in-out;
+  top: 40%;
+  left: 40%;
+}
+.dropDown__blog a {
+  text-decoration: none;
+  list-style: none;
+  gap: 5px;
+}
+
+.choose__right {
+  color: #fff;
+  margin-top: -17px;
+}
+
+.navbar__ a:hover {
+  color: #ffa200;
+}
+
+.navbar__left-menu a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  gap: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.5;
+  padding-left: 1.5rem;
+  line-height: 40px;
+}
+
+.navbar__left-menu {
+  position: absolute;
+  background-color: #ffffff;
+  left: 1%;
+  top: 35%;
+  z-index: 99;
+  width: 334px;
+  height: 300;
+  opacity: 1;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+  z-index: 5;
+  display: flex;
+  gap: 147px;
+  padding: 1rem;
+}
+
+/* .navbar__left-container:hover .navbar__left-items {
+  visibility: visible;
+  opacity: 1;
+  transition: 1;
+  transition: 00.3s ease-in-out;
+  background: #ffffff;
+  width: 400px;
+} */
+
+.navbar__left-menu.active {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.3s linear;
+  top: 40%;
+}

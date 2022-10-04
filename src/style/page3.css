@@ -1,0 +1,27 @@
+.products-header {
+  width: 100%;
+}
+
+.product__header-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+
+.select {
+  width: 200px;
+  cursor: pointer;
+  margin-right: 58px;
+}
+
+.search__input {
+  width: 300px;
+  margin-left: 54px;
+}
+.search__widget i {
+  margin-left: -20px;
+}
+.paginate {
+  margin-top: 100px;
+}

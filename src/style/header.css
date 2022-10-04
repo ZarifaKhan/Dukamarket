@@ -1,0 +1,172 @@
+.header {
+  width: 100%;
+}
+
+.top__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #263c97;
+  padding: 0 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.top__header-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.select__option {
+  background: transparent;
+  text-decoration: none;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+select {
+  outline-style: none;
+}
+.help {
+  margin-top: 16px;
+}
+.help span:hover {
+  color: #fcb200;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 31px;
+}
+
+.top__header-right {
+  margin-top: 8px;
+}
+.select__option option {
+  color: black;
+}
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+.line {
+  color: rgba(255, 255, 255, 0.15);
+}
+
+.dukamarket {
+  background: #263c97;
+  padding: 0px 30px;
+}
+.duka__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 15px;
+}
+
+.categories {
+  width: 169px;
+  height: 47px;
+  padding: 2px;
+}
+.search__category {
+  display: flex;
+}
+input {
+  outline: none;
+}
+.search__widget {
+  position: relative;
+}
+
+.search__button {
+  position: absolute;
+}
+.search__w {
+  width: 269px;
+  height: 45.7px;
+  border: none;
+  margin-top: 0.8px;
+}
+
+.search__button {
+  border: none;
+  background: #fcb200;
+  top: 0px;
+  left: 222px;
+  width: 47px;
+  height: 47px;
+}
+
+.duka__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 5px;
+}
+.header__icon {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.login__mini {
+  margin-top: 15px;
+  line-height: 2px;
+}
+
+.opacity {
+  font-size: 14px;
+  opacity: 0.5;
+}
+.cart__badge {
+  font-size: 16px;
+}
+
+.wishlist,
+.your__cart {
+  position: relative;
+}
+
+.cart__badge {
+  position: absolute;
+  top: 5px;
+  left: 23px;
+  background-color: #fcb200;
+  width: 15px;
+  height: 15px;
+  color: black;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart__bdg {
+  position: absolute;
+  top: 5px;
+  left: 23px;
+  background-color: #fcb200;
+  width: 15px;
+  height: 15px;
+  color: black;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.euro {
+  font-size: 0.8rem;
+}
